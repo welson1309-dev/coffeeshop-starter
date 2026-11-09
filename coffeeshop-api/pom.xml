@@ -61,11 +61,16 @@
             <version>${archunit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
     </dependencies>
 
     <!--
         The versions of every Spring AI module. To use Spring AI, add the starter
-        to <dependencies> above, without a <version> (this BOM chooses it):
+        to <dependencies> aspbove, without a <version> (this BOM chooses it):
 
         <dependency>
             <groupId>org.springframework.ai</groupId>
